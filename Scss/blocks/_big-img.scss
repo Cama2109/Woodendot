@@ -1,0 +1,116 @@
+.big-img-part{
+  background-image: url(../../img/IMAGE.jpg);
+  width: 1110px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+ text-align: center;
+
+}
+.big-img-text{
+    color: #fff;
+    font-family: $font-primary;
+    font-weight:bold;
+    font-size:27px;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    padding-top: 170px;
+}
+.big-img-button{
+    width: 200px;
+    height: 33px;
+    border-radius:6px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    transition: all 1s;
+    font-size:15px;
+    font-weight: bolder;
+}
+.big-img-button:hover{
+    width: 200px;
+    height: 33px;
+    border-radius:6px;
+    border: 2px solid #fff;
+    background-color: rgb(199, 199, 199);
+    color: #fff;
+    
+}
+@include breakpoint-down(900px){
+    .big-img-part{
+        background-image: url(../../img/IMAGE.jpg);
+        width: 1000px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+       text-align: center;
+      
+      }
+}
+@include breakpoint-down(800px){
+    .big-img-part{
+        background-image: url(../../img/IMAGE.jpg);
+        width: 900px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+       text-align: center;
+      
+      }
+}
+@include breakpoint-down(700px){
+    .big-img-part{
+        background-image: url(../../img/IMAGE.jpg);
+        width: 800px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+       text-align: center;
+      
+      }
+      .big-img-text{
+        color: #fff;
+        font-family: $font-primary;
+        font-weight:bold;
+        font-size:23px;
+        width: 730px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; 
+        padding-top: 170px;
+    }
+}
+@include breakpoint-down(600px){
+    .big-img-part{
+        background-image: url(../../img/IMAGE.jpg);
+        width: 600px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+       text-align: center;
+      
+      }
+      .big-img-text{
+        color: #fff;
+        font-family: $font-primary;
+        font-weight:bold;
+        font-size:20px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; 
+        padding-top: 170px;
+    }
+}

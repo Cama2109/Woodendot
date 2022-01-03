@@ -1,1 +1,216 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -60px;
+}
+
+.navbar-ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-top: 22px;
+  margin-right: 230px;
+}
+
+.navbar-list {
+  margin-left: 30px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar-title {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.navbar-button {
+  border: none;
+  background-color: none;
+  border-color: transparent;
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar-ul {
+    list-style-type: none;
+    display: none;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-top: 22px;
+    margin-right: 230px;
+  }
+  .navbar-title {
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 90px;
+  }
+  .navbar-button {
+    border: none;
+    background-color: none;
+    border-color: transparent;
+    display: block;
+    width: -90pc;
+    height: 10px;
+    margin-left: 560px;
+    margin-top: 80px;
+  }
+}
+
+.big-img-part {
+  background-image: url(../../img/IMAGE.jpg);
+  width: 1110px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.big-img-text {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 27px;
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 170px;
+}
+
+.big-img-button {
+  width: 200px;
+  height: 33px;
+  border-radius: 6px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.big-img-button:hover {
+  width: 200px;
+  height: 33px;
+  border-radius: 6px;
+  border: 2px solid #fff;
+  background-color: #c7c7c7;
+  color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  .big-img-part {
+    background-image: url(../../img/IMAGE.jpg);
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .big-img-part {
+    background-image: url(../../img/IMAGE.jpg);
+    width: 900px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .big-img-part {
+    background-image: url(../../img/IMAGE.jpg);
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  .big-img-text {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 23px;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 170px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .big-img-part {
+    background-image: url(../../img/IMAGE.jpg);
+    width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  .big-img-text {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 170px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
