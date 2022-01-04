@@ -1,0 +1,120 @@
+.collections{
+    display:grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap:30px;
+    grid-template-areas:" number-1 number-1 number-1 number-1"
+    "number-2 number-2 number-2 number-2"
+    "number-3 number-3 number-3 number-3"
+    "number-4 number-4 number-4 number-4"
+    "number-5 number-5 number-5 number-5"
+    ;
+    margin-top: 60px;
+}
+
+.number-1{
+    grid-area: number-1;
+    display:flex;
+}
+.number-2{
+    grid-area: number-2;
+    display:flex;
+    margin-top: -20px;
+
+}
+.number-3{
+    grid-area: number-3;
+    display:flex;
+    margin-top: -20px;
+}
+.number-4{
+    grid-area: number-4;
+    display:flex;
+    margin-top: -20px;
+}
+.number-5{
+    grid-area: number-5;
+    display:flex;
+    margin-top: -40px;
+}
+.written-part{
+    width: 400px;
+    text-align:right;
+  margin-left: 30px;
+}
+.written-part-2{
+    width: 400px;
+  
+  
+ margin-left: 30px;
+}
+.written-part-3{
+    width: 400px;
+    text-align:right;
+  margin-left: 30px;
+}
+.written-part-4{
+    width: 400px;
+  
+  
+ margin-left: 30px;
+}
+.img-part{
+    margin-left:26px;
+}
+.img-part-3{
+    margin-left:26px;
+}
+.written-part-title{
+    font-size: 33px;
+    font-family: $font-primary;
+    font-weight:bold;
+    font-style:bold;
+   
+}
+.written-part-name{
+    font-size:18px;
+    font-family: Cardo;
+    font-weight: normal;
+    font-style:italic;
+    margin-top: -30px;
+    color: #525252;
+    
+}
+.written-part-name-2{
+    font-size:15px;
+    font-family: Cardo;
+    font-weight: normal;
+    font-style:italic;
+    margin-bottom: -10px;
+    color: #c40000;
+    
+}
+.written-part-price{
+    font-family: $font-primary;
+    font-size: 15px;
+    color: #525252;
+    
+
+}
+.written-part-text{
+    font-family: Cardo;
+    font-style:oblique;
+    color: #525252;
+    width: 400px;
+    line-height: 26px;
+  
+}
+.photo{
+    width: 700px;
+    height: 400px;
+}
+.written-part-link{
+    text-decoration: none;
+    border-bottom: 2px solid #4d4d4d;
+    padding-bottom: 5px;
+    color: #000000;
+    font-size: 17px;
+}
+.small-cards{
+    margin-top:20px;
+}
